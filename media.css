@@ -1,0 +1,206 @@
+@media (max-width: 450px ){
+    .header{
+        background-color: rgb(61, 57, 4);
+    }
+    .nav-bar{
+        top:100%;
+        width: 100%;
+        backdrop-filter: blur(250px);
+        background-color: rgba(61, 57, 0, 0.74);
+        left:0;
+        right: 0;
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        height: 0;
+        transition: .3s ease;
+    }
+    .nav-bar a{
+        /* max-width: 10vh; */
+        text-align: center;
+        display: block;
+        text-align: center;
+        margin: 2rem;
+        font-size: 1rem;
+        margin-right: 13.5%;
+        text-transform: uppercase;
+        color: white;
+        border-left: 0.5px solid rgba(255, 255, 255, 0.493);
+        border-right: 0.5px solid rgba(255, 255, 255, 0.493);
+        text-shadow: 0 0 10px black;
+    }
+    
+    .icons{
+        font-size: 1.8rem;
+        padding-right: 0;
+        right: 0;
+        justify-content: right;
+        margin-right: 5%;
+    }
+    #menu-open{
+        display: block;
+        /* padding-right: -10%; */
+    }
+    .logo-container{
+        padding-left:0 ;
+        font-size: 1.8rem;
+    }
+    .logo-image{
+        width: 1.8rem;
+    }
+    .logo{
+        font-size: 1.8rem;
+    }
+    #check:checked~.icons #menu-open{
+        display: none;
+    }
+    #check:checked~.icons #menu-close{
+        display: inline-block;
+    } 
+    #check:checked~.nav-bar{
+        height: 16.5rem;
+    } 
+    .main{
+        background-image: url(images/fule-1.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        /* max-width: 100vh; */
+        height: 100vh;
+        font-size: 1rem;
+        align-items: center;
+
+        width: 100%;
+        min-height: 100vh;
+        padding-left: 1rem;
+        padding-right: 1rem;
+
+    }
+
+    .main div h3{
+        font-size: 150%;
+        padding-left: 0;
+    }
+    
+    .main div h2{
+        font-size: 250%;
+        padding-left: 0;
+    }
+    .main span{
+        padding: 13rem 1rem;
+        font-size: 90%;
+    }
+    .logo-image{
+        width: 2rem;
+        height: auto;
+        margin-right: -1rem;
+    }
+    .projects{
+        align-items: center;
+        font-size: 1.5rem;
+    }
+    .social-icons i{
+        font-size: 1.5rem;
+        padding-right: 1.8rem;
+        padding-left: 0;
+    }
+}
+@media (max-width: 710px ) and (min-width: 451px){
+    body{
+        background-image: url(images/fire.jpg);
+        background-repeat: no-repeat;
+    }
+    
+    .nav-bar{
+        top:100%;
+        width: 100%;
+        backdrop-filter: blur(50px);
+        left:0;
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+        margin-right: 3.35rem;
+        overflow: hidden;
+        height: 0;
+        transition: .3s ease;
+    }
+    .nav-bar a{
+        display: block;
+        text-align: center;
+        margin: 2rem;
+
+    }
+    .icons{
+        font-size: 2rem;
+        padding-right: 0;
+        right: 0;
+        justify-content: right;
+    }
+    #menu-open{
+        display: block;
+    }
+    .logo{
+        padding-left:0 ;
+        font-size: 1.8rem;
+    }
+    #check:checked~.icons #menu-open{
+        display: none;
+    }
+    #check:checked~.icons #menu-close{
+        display: inline-block;
+    } 
+    #check:checked~.nav-bar{
+        height: 16.5rem;
+    } 
+    #menu-close{
+        margin-top: 18%;
+    }
+    .logo{
+        font-size: 2rem;
+    }
+    .main{
+        background-image: url(images/fire.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        /* max-width: 100vh; */
+        height: 100vh;
+        font-size: 1rem;
+        align-items: center;
+
+        width: 100%;
+        min-height: 100vh;
+        padding-left: 1rem;
+        padding-right: 1rem;
+
+    }
+
+    .main div h3{
+        font-size: 150%;
+        padding-left: 0;
+    }
+    
+    .main div h2{
+        font-size: 250%;
+        padding-left: 0;
+    }
+    .main span{
+        padding: 13rem 1rem;
+        font-size: 90%;
+    }
+    .logo-image{
+        width: 2rem;
+        height: auto;
+        margin-right: 0.1rem;
+    }
+    .projects{
+        align-items: center;
+        font-size: 1.5rem;
+    }
+    .social-icons i{
+        font-size: 1.5rem;
+        padding-right: 1.8rem;
+        padding-left: 0;
+    }
+}
