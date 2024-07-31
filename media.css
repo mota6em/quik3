@@ -1,5 +1,6 @@
 @media (max-width: 450px ){
     .header{
+        height: 2.3rem; 
         background-color: rgb(61, 57, 4);
     }
     .nav-bar{
@@ -32,7 +33,7 @@
     }
     
     .icons{
-        font-size: 1.8rem;
+        font-size: 2rem;
         padding-right: 0;
         right: 0;
         justify-content: right;
